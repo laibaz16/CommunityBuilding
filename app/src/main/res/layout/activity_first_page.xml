@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#65AEAD"
     tools:context=".first_page">
 
     <ImageView
@@ -23,8 +24,8 @@
         android:layout_width="287dp"
         android:layout_height="39dp"
         android:layout_marginBottom="20dp"
-        android:textSize="20sp"
         android:text="Select your age group below:"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/teens"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -33,8 +34,10 @@
         android:id="@+id/teens"
         android:layout_width="130sp"
         android:layout_height="80dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/teal_700"
         android:text="Teen"
+        android:textColor="@android:color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/Adult"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +49,9 @@
         android:layout_width="130sp"
         android:layout_height="80dp"
         android:layout_marginBottom="20dp"
+        android:background="@color/teal_700"
         android:text="Adult"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/Senior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -56,10 +61,25 @@
         android:id="@+id/Senior"
         android:layout_width="130sp"
         android:layout_height="80dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginBottom="68dp"
+        android:background="@color/teal_700"
         android:text="Senior"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/notificationbell"
+        android:layout_width="55dp"
+        android:onClick="notification_click"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@drawable/notification" />
 </androidx.constraintlayout.widget.ConstraintLayout>
