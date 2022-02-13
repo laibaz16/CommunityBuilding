@@ -6,16 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Teen_page">
 
-    <Button
-        android:id="@+id/Chitchat"
-        android:layout_width="119dp"
-        android:layout_height="106dp"
-        android:layout_marginTop="124dp"
-        android:text="Chit Chat "
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <Button
         android:id="@+id/talentshow"
@@ -39,4 +31,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/talentshow"
         app:layout_constraintVertical_bias="0.159" />
+
+    <Button
+        android:id="@+id/Chitchat"
+        android:layout_width="119dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="184dp"
+        android:text="Chit Chat with Host Maria Gonzalas "
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="105dp"
+        android:layout_height="68dp"
+        android:text="Chit Chat with Maria Gonzalas from 4:00pm - 5:00pm"
+        android:onClick="text_msg"
+        app:layout_constraintBottom_toTopOf="@+id/Chitchat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
