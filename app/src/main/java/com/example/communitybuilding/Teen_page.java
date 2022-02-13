@@ -2,8 +2,11 @@ package com.example.communitybuilding;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Teen_page extends AppCompatActivity {
@@ -14,6 +17,13 @@ public class Teen_page extends AppCompatActivity {
         setContentView(R.layout.activity_teen_page);
     }
     public void text_msg(View v){
-        Toast.makeText(getApplicationContext(), "Joining", Toast.LENGTH_LONG).show();
+        TextView teen_btn = (TextView) findViewById(R.id.chitchat);
+        teen_btn.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                startActivity(new Intent(Teen_page.this, test.class));
+            }
+        });
     }
 }
