@@ -7,55 +7,94 @@
     tools:context=".Teen_page">
 
 
-
-
-    <Button
-        android:id="@+id/talentshow"
-        android:layout_width="126dp"
-        android:layout_height="94dp"
-        android:layout_marginTop="56dp"
-        android:text="Talent Show"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Chitchat" />
-
-    <Button
-        android:id="@+id/Paint"
-        android:layout_width="152dp"
-        android:layout_height="105dp"
-        android:text="Paint with Peers"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/talentshow"
-        app:layout_constraintVertical_bias="0.159" />
-
-    <Button
-        android:id="@+id/Chitchat"
-        android:layout_width="119dp"
-        android:layout_height="106dp"
-        android:layout_marginTop="184dp"
-        android:text="Chit Chat with Host Maria Gonzalas "
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.219"
+    <ImageButton
+        android:id="@+id/speedimage"
+        android:layout_width="166dp"
+        android:layout_height="176dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:onClick="speedclick"
+        android:src="@drawable/speedimage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="105dp"
-        android:layout_height="68dp"
-        android:text="Chit Chat with Maria Gonzalas from 4:00pm - 5:00pm"
-        android:onClick="text_msg"
-        app:layout_constraintBottom_toTopOf="@+id/Chitchat"
+        android:id="@+id/Speedfriending"
+        android:layout_width="184dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="speedclick"
+        android:text="Speed Friending \n with Maria Gonzalas \n from 4:00pm - 5:00pm \n click to join"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/speedimage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/talentimage"
+        android:layout_width="172dp"
+        android:layout_height="141dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:onClick="talentshowclick"
+        android:src="@drawable/talentshow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintTop_toBottomOf="@+id/speedimage" />
+
+    <TextView
+        android:id="@+id/talentshow"
+        android:layout_width="184dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="talentshowclick"
+        android:text="Talent Show \n with Maven Brown \n from 6:00pm - 7:00pm \n click to join"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/talentimage"
+        app:layout_constraintTop_toBottomOf="@+id/Speedfriending" />
+
+    <ImageButton
+        android:id="@+id/paintimage"
+        android:layout_width="172dp"
+        android:layout_height="141dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:onClick="paintclick"
+        android:src="@drawable/paintimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/paint"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/talentimage"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
+        android:id="@+id/paint"
+        android:layout_width="184dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="paintclick"
+        android:text="Paint with Peers \n with Ashley Tran \n from 6:00pm - 7:00pm \n click to join"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/talentshow"
+        app:layout_constraintVertical_bias="0.328" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
