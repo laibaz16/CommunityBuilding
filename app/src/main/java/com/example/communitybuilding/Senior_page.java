@@ -3,6 +3,7 @@ package com.example.communitybuilding;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -20,13 +21,17 @@ public class Senior_page extends AppCompatActivity {
         TextView extext = (TextView) findViewById(R.id.exercise);
         extext.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Senior_page.this, test.class));
+                Uri uri = Uri.parse("https://yorku.zoom.us/j/5833170844?pwd=dmpqblU5VFRQZjFsMjNjTE0vZlZhdz09"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
         ImageButton eximage = (ImageButton) findViewById(R.id.excerciseimage);
         eximage.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Senior_page.this, test.class));
+                Uri uri = Uri.parse("https://yorku.zoom.us/j/5833170844?pwd=dmpqblU5VFRQZjFsMjNjTE0vZlZhdz09"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
     }
@@ -36,13 +41,17 @@ public class Senior_page extends AppCompatActivity {
         TextView seniormentalhealthtext = (TextView) findViewById(R.id.seniormentalhealth);
         seniormentalhealthtext.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Senior_page.this, test.class));
+                Uri uri = Uri.parse("https://yorku.zoom.us/j/5833170844?pwd=dmpqblU5VFRQZjFsMjNjTE0vZlZhdz09"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
         ImageButton seniormentalhealthimage = (ImageButton) findViewById(R.id.mentalhealth);
         seniormentalhealthimage.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Senior_page.this, test.class));
+                Uri uri = Uri.parse("https://yorku.zoom.us/j/5833170844?pwd=dmpqblU5VFRQZjFsMjNjTE0vZlZhdz09"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
     }
@@ -52,13 +61,17 @@ public class Senior_page extends AppCompatActivity {
         TextView teatext = (TextView) findViewById(R.id.tea);
         teatext.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Senior_page.this, test.class));
+                Uri uri = Uri.parse("https://yorku.zoom.us/j/5833170844?pwd=dmpqblU5VFRQZjFsMjNjTE0vZlZhdz09"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
         ImageButton teaimage = (ImageButton) findViewById(R.id.teaimage);
         teaimage.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Senior_page.this, test.class));
+                Uri uri = Uri.parse("https://yorku.zoom.us/j/5833170844?pwd=dmpqblU5VFRQZjFsMjNjTE0vZlZhdz09"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
     }

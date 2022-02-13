@@ -11,10 +11,11 @@
         android:layout_width="166dp"
         android:layout_height="176dp"
         android:layout_gravity="left"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="68dp"
         android:onClick="fitnessclick"
         android:src="@drawable/fitnessimage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
