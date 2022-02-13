@@ -6,4 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".Adult_page">
 
+    <ImageButton
+        android:id="@+id/fitnessimage"
+        android:layout_width="166dp"
+        android:layout_height="176dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:onClick="fitnessclick"
+        android:src="@drawable/fitnessimage2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fitness"
+        android:layout_width="184dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="fitnessclick"
+        android:text="Fitness \n with Jake Ben \n from 7:00am - 8:00am \n click to join"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/fitnessimage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mentalhealthimage"
+        android:layout_width="172dp"
+        android:layout_height="141dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:onClick="mentalhealthclick"
+        android:src="@drawable/mentalhealthimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fitnessimage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/mentalhealth"
+        android:layout_width="184dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="mentalhealthclick"
+        android:text="Mental Health Talks \n with Andrea Palok \n from 6:00pm - 7:00pm \n click to join"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/mentalhealthimage"
+        app:layout_constraintTop_toBottomOf="@+id/fitness"
+        app:layout_constraintVertical_bias="0.006" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

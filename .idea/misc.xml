@@ -3,23 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_senior_page.xml" value="0.16770833333333332" />
-        <entry key="app/src/main/res/layout/header.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/nav_header.xml" value="0.16770833333333332" />
-        <entry key="app/src/main/res/menu/drawer_meu.xml" value="0.33" />
-=======
         <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/drawable/help.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/drawable/info.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/drawable/request.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/drawable/share.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/layout/activity_adult_page.xml" value="0.14402173913043478" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/layout/activity_adult_page.xml" value="0.176" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/layout/activity_senior_page.xml" value="0.14402173913043478" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/layout/activity_teen_page.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CommunityBuilding/app/src/main/res/layout/activity_test.xml" value="0.24010416666666667" />
->>>>>>> db9ea4f7f2de07003c8c8e522c513651987d91ad
       </map>
     </option>
   </component>

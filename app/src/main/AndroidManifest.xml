@@ -11,8 +11,7 @@
         android:theme="@style/Theme.CommunityBuilding">
         <activity
             android:name=".MainActivity"
-<<<<<<< HEAD
-=======
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,9 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".test"
->>>>>>> db9ea4f7f2de07003c8c8e522c513651987d91ad
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
