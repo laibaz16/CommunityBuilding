@@ -7,14 +7,14 @@
     tools:context=".Senior_page">
 
     <ImageButton
-        android:id="@+id/Excerciseimage"
+        android:id="@+id/excerciseimage"
         android:layout_width="166dp"
         android:layout_height="176dp"
         android:layout_gravity="left"
         android:layout_marginStart="28dp"
         android:layout_marginTop="72dp"
-        android:onClick="exerciseclick"
-        android:src="@drawable/excersiceimage"
+        android:onClick="exclick"
+        android:src="@drawable/eximage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,12 +26,11 @@
         android:layout_marginEnd="24dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:onClick="exerciseclick"
+        android:onClick="exclick"
         android:text="Exercise \n with Jason Franz \n from 7:00am - 8:00am \n click to join"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/excersiceimage"
+        app:layout_constraintStart_toEndOf="@+id/excerciseimage"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
@@ -40,27 +39,27 @@
         android:layout_height="141dp"
         android:layout_gravity="left"
         android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
         android:onClick="seniormentalhealthclick"
         android:src="@drawable/mentalhealthimage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintTop_toBottomOf="@+id/excerciseimage" />
 
     <TextView
         android:id="@+id/seniormentalhealth"
         android:layout_width="184dp"
         android:layout_height="141dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:onClick="seniormentalhealthclick"
         android:text="Mental Health Talks \n with Andrea Palok \n from 2:00pm - 3:00pm \n click to join"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/talentimage"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintTop_toBottomOf="@+id/exercise" />
 
     <ImageButton
         android:id="@+id/teaimage"
@@ -71,21 +70,22 @@
         android:onClick="teaclick"
         android:src="@drawable/teaimage"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/paint"
+        app:layout_constraintEnd_toStartOf="@+id/tea"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mentalhealth" />
+        app:layout_constraintTop_toBottomOf="@+id/mentalhealth"
+        app:layout_constraintVertical_bias="0.503" />
 
     <TextView
-        android:id="@+id/paint"
+        android:id="@+id/tea"
         android:layout_width="184dp"
         android:layout_height="141dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="24dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:onClick="paintclick"
-        android:text="Tea with Peers \n with Ashley Tran \n from 6:00pm - 7:00pm \n click to join"
-        android:textSize="18sp"
+        android:onClick="teaclick"
+        android:text="Tea Party \n with Andrew Jason \n from 4:00pm - 5:00pm \n click to join"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seniormentalhealth" />
