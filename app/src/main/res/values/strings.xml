@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">CommunityBuilding</string>
+    <string name="select_your_age_group_below">Select Your Age Group Below</string>
+    <string name="senior">Senior</string>
+    <string name="adult">Adult</string>
+    <string name="teens">Teens</string>
+    <string name="notifications">Notifications</string>
+    <string name="help">Help</string>
+    <string name="request">Request</string>
+    <string name="info">Info</string>
+    <string name="support_us">Support Us</string>
+    <string name="share">Share</string>
 </resources>
