@@ -10,4 +10,8 @@
     <string name="info">Info</string>
     <string name="support_us">Support Us</string>
     <string name="share">Share</string>
+    <string name="communitybuild">CommunityBuild</string>
+    <string name="todo">TODO</string>
+    <string name="community_build">Community Build</string>
+
 </resources>

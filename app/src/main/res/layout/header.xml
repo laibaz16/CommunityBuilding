@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    android:layout_height="176dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_launcher"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="@string/community_build"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:ignore="TextContrastCheck" />
+
+
+
+</LinearLayout>
+
+
+
+
